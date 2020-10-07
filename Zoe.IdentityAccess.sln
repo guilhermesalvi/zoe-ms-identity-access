@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30523.141
+MinimumVisualStudioVersion = 15.0.26124.0
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{BB5ECB04-86FF-46E9-9A8D-060D7AC36EBC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Zoe.IdentityAccess.Api", "src\Zoe.IdentityAccess.Api\Zoe.IdentityAccess.Api.csproj", "{821E1800-2099-493F-9994-67D807A0FCF9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{CDD2D13C-6B4C-447A-B6E5-7A0938EB7CD2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Zoe.IdentityAccess.UnitTests", "tests\Zoe.IdentityAccess.UnitTests\Zoe.IdentityAccess.UnitTests.csproj", "{AB75FE84-74E0-408E-85DB-39E4A9197EF8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{821E1800-2099-493F-9994-67D807A0FCF9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{821E1800-2099-493F-9994-67D807A0FCF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{821E1800-2099-493F-9994-67D807A0FCF9}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{821E1800-2099-493F-9994-67D807A0FCF9}.Debug|x64.Build.0 = Debug|Any CPU
+		{821E1800-2099-493F-9994-67D807A0FCF9}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{821E1800-2099-493F-9994-67D807A0FCF9}.Debug|x86.Build.0 = Debug|Any CPU
+		{821E1800-2099-493F-9994-67D807A0FCF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{821E1800-2099-493F-9994-67D807A0FCF9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{821E1800-2099-493F-9994-67D807A0FCF9}.Release|x64.ActiveCfg = Release|Any CPU
+		{821E1800-2099-493F-9994-67D807A0FCF9}.Release|x64.Build.0 = Release|Any CPU
+		{821E1800-2099-493F-9994-67D807A0FCF9}.Release|x86.ActiveCfg = Release|Any CPU
+		{821E1800-2099-493F-9994-67D807A0FCF9}.Release|x86.Build.0 = Release|Any CPU
+		{AB75FE84-74E0-408E-85DB-39E4A9197EF8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB75FE84-74E0-408E-85DB-39E4A9197EF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB75FE84-74E0-408E-85DB-39E4A9197EF8}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{AB75FE84-74E0-408E-85DB-39E4A9197EF8}.Debug|x64.Build.0 = Debug|Any CPU
+		{AB75FE84-74E0-408E-85DB-39E4A9197EF8}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{AB75FE84-74E0-408E-85DB-39E4A9197EF8}.Debug|x86.Build.0 = Debug|Any CPU
+		{AB75FE84-74E0-408E-85DB-39E4A9197EF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB75FE84-74E0-408E-85DB-39E4A9197EF8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB75FE84-74E0-408E-85DB-39E4A9197EF8}.Release|x64.ActiveCfg = Release|Any CPU
+		{AB75FE84-74E0-408E-85DB-39E4A9197EF8}.Release|x64.Build.0 = Release|Any CPU
+		{AB75FE84-74E0-408E-85DB-39E4A9197EF8}.Release|x86.ActiveCfg = Release|Any CPU
+		{AB75FE84-74E0-408E-85DB-39E4A9197EF8}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{821E1800-2099-493F-9994-67D807A0FCF9} = {BB5ECB04-86FF-46E9-9A8D-060D7AC36EBC}
+		{AB75FE84-74E0-408E-85DB-39E4A9197EF8} = {CDD2D13C-6B4C-447A-B6E5-7A0938EB7CD2}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9AA4B46C-1F80-409D-B165-2575471E2E47}
+	EndGlobalSection
+EndGlobal
